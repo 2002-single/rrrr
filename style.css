@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkorange;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-style: oblique;
+    }
+#calcResult {
+    color:rgb(185, 40, 40);
+}
+input {
+    color: rgb(39, 110, 173);
+}
+label {
+    color:rgb(255, 0, 0);
+}
+button {
+    color: rgb(255, 0, 0);
+}
+.CoursePrice {
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: pink;
+    border-radius: 20px;
+}
+.CoursePrice label {
+    display: black;
+    margin-bottom: 10px;
+}

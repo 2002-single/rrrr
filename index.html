@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+https://github.com/09012002f/frontend.git
+    <h2>Калькулятор</h2>
+    <div>
+        <label>
+             a = 
+            <input type="number" name="x">
+        </label>
+    </div>
+    <div>
+        <label>
+            b =
+            <input type="number" name="y">
+        </label>
+    </div>
+    <div class="operators">
+        <button onclick="sum()">+</button>
+        <button onclick="substruct()">-</button>
+        <button onclick="multiple()">*</button>
+        <button onclick="divide()" devide>/</button>
+    </div>
+   <h2><span id="calcResult">Результат:</span></h2> 
+    <div class = "CoursePrice">
+<h1>Калькулятор стоимости курса</h1> 
+
+<label>
+   КУРС:
+    <select name="" id="courseName" oninput="CourcePrise()">
+        <option value="">Выберите курс</option>
+        <option value="Python"> Python</option>
+        <option value="Front"> Front</option>
+        <option value="Ux"> UX/UI</option>
+    </select>
+</label>
+<label>
+    Скидка:
+    <input type="range" id="step" value="0" min="0" max="50" step="5" oninput="CourcePrise()">
+    <span id="sale">0%</span>
+</label>
+<label>
+    Сумма:
+<input type="text" readonly id="price">
+</label>
+</div>
+<script src="./script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
